@@ -7,6 +7,7 @@
 Given the head of a singly linked list, reverse the list, and return the reversed list.
 
 ### Example 1:
+![rev1ex1](https://github.com/user-attachments/assets/1e0aefb7-ff32-4792-988d-2ccc3ac0717c)
 
 **Input**: 
 ```
@@ -18,6 +19,7 @@ head = [1,2,3,4,5]
 ```
 
 ### Example 2:
+![rev1ex2](https://github.com/user-attachments/assets/aa2cf29e-66a6-4cfc-ae65-fdccc6e9940a)
 
 **Input**: 
 ```
