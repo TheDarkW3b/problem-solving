@@ -31,7 +31,7 @@ class Solution {
     }
 }
 
-// TREMAP SOLUTION
+// TREEMAP SOLUTION
 class Solution {
     public boolean isNStraightHand(int[] hand, int groupSize) {
         if (hand.length % groupSize != 0) return false;
