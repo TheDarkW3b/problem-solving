@@ -18,7 +18,7 @@ asteroids = [5,10,-5]
 ```
 [5,10] 
 ```
-* **Explanation**: The 10 and -5 collide resulting in 10. The 5 and 10 never collide.
+* **Explanation**: The `10` and `-5` collide resulting in `10`. The `5` and `10` never collide.
 
 ### Example 2:
 
@@ -30,7 +30,7 @@ asteroids = [8,-8]
 ```
 [] 
 ```
-* **Explanation**: The 8 and -8 collide exploding each other.
+* **Explanation**: The `8` and `-8` collide exploding each other.
 
 ### Example 3:
 
@@ -42,11 +42,11 @@ asteroids = [10,2,-5]
 ```
 [10] 
 ```
-* **Explanation**: The 2 and -5 collide resulting in -5. The 10 and -5 collide resulting in 10.
+* **Explanation**: The `2` and `-5` collide resulting in `-5`. The `10` and `-5` collide resulting in `10`.
 
 
 ### Constraints:
 
-- 2 <= asteroids.length <= 10^4
-- -1000 <= asteroids[i] <= 1000
-- asteroids[i] != 0
+- `2 <= asteroids.length <= 10^4`
+- `-1000 <= asteroids[i] <= 1000`
+- `asteroids[i] != 0`
