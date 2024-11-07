@@ -9,40 +9,47 @@ A **subarray** is a contiguous part of an array.
 
 ---
 
-### Examples:
+## Examples:
 
-#### Example 1:
+### Example 1:
 **Input**:  
-`nums = [1,2,1,2,3], k = 2`
+```
+nums = [1,2,1,2,3], k = 2
+```
 
 **Output**:  
-`7`
+```
+7
+```
+  * **Explanation**:  
+    The subarrays that contain exactly 2 different integers are:
+    - `[1,2]`
+    - `[2,1]`
+    - `[1,2]`
+    - `[2,3]`
+    - `[1,2,1]`
+    - `[2,1,2]`
+    - `[1,2,1,2]`
 
-**Explanation**:  
-The subarrays that contain exactly 2 different integers are:
-- `[1,2]`
-- `[2,1]`
-- `[1,2]`
-- `[2,3]`
-- `[1,2,1]`
-- `[2,1,2]`
-- `[1,2,1,2]`
-
-#### Example 2:
+### Example 2:
 **Input**:  
-`nums = [1,2,1,3,4], k = 3`
+```
+nums = [1,2,1,3,4], k = 3
+```
 
 **Output**:  
-`3`
+```
+3
+```
 
-**Explanation**:  
-The subarrays that contain exactly 3 different integers are:
-- `[1,2,1,3]`
-- `[2,1,3]`
-- `[1,3,4]`
+  * **Explanation**:  
+    The subarrays that contain exactly 3 different integers are:
+    - `[1,2,1,3]`
+    - `[2,1,3]`
+    - `[1,3,4]`
 
 ---
 
-### Constraints:
-- 1 <= nums.length <= 2 * 10^4
-- 1 <= nums[i], k <= nums.length
+## Constraints:
+- `1 <= nums.length <= 2 * 10^4`
+- `1 <= nums[i], k <= nums.length`
