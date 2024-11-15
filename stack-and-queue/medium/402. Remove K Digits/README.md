@@ -16,10 +16,7 @@ num = "1432219", k = 3
 ```
 "1219"
 ```
-**Explanation**:  
-```
-Remove the three digits 4, 3, and 2 to form the new number 1219, which is the smallest possible.
-```
+  * **Explanation**:  Remove the three digits 4, 3, and 2 to form the new number 1219, which is the smallest possible.
 
 ### Example 2:
 
@@ -31,10 +28,7 @@ num = "10200", k = 1
 ```
 "200"
 ```
-**Explanation**:  
-```
-Remove the leading 1 to form 200. Note that the output must not contain leading zeroes.
-```
+  * **Explanation**:  Remove the leading 1 to form 200. Note that the output must not contain leading zeroes.
 
 ### Example 3:
 
@@ -46,13 +40,10 @@ num = "10", k = 2
 ```
 "0"
 ```
-**Explanation**:  
-```
-Remove all the digits, leaving the number as 0.
-```
+  * **Explanation**:  Remove all the digits, leaving the number as 0.
 
 ### Constraints:
 
-- 1 <= k <= num.length <= 10^5
+- `1 <= k <= num.length <= 10^5`.
 - `num` consists of only digits.
 - `num` does not have any leading zeros except for the zero itself.
