@@ -6,6 +6,8 @@ Given a binary tree, determine if it is height-balanced.
 
 ## Examples
 ### Example 1:
+![balance_1](https://github.com/user-attachments/assets/c00627a0-eaed-4d4e-bdb5-724bc21e4894)
+
 **Input**:
 ```
 root = [3,9,20,null,null,15,7]
@@ -16,6 +18,8 @@ true
 ```
 
 ### Example 2:
+![balance_2](https://github.com/user-attachments/assets/cebfc79f-1fb3-44a3-98ff-ef7bc41bbff6)
+
 **Input**:
 ```
 root = [1,2,2,3,3,null,null,4,4]
