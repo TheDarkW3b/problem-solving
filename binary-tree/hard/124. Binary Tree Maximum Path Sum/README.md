@@ -11,6 +11,7 @@ Given the root of a binary tree, return the maximum path sum of any non-empty pa
 ## Examples
 ### Example 1:
 ![exx1](https://github.com/user-attachments/assets/e8e5a545-abf0-4705-9977-c49e76d49829)
+
 **Input**:
 ```
 root = [1,2,3]
@@ -23,6 +24,7 @@ root = [1,2,3]
 
 ### Example 2:
 ![exx2](https://github.com/user-attachments/assets/9bf14bf7-f16a-4892-a85e-03608683b7e2)
+
 **Input**:
 ```
 root = [-10,9,20,null,null,15,7]
