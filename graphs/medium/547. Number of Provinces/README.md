@@ -16,6 +16,9 @@ Return the total number of provinces.
 
 ### Example 1:
 **Input**:
+
+![graph1](https://github.com/user-attachments/assets/944fa016-94a1-48ec-b3d7-ff90766a97bc)
+
 ```
 isConnected = [
   [1,1,0],
@@ -30,6 +33,9 @@ isConnected = [
 ```
 
 ### Example 2:
+
+![graph2](https://github.com/user-attachments/assets/1cca80f9-603c-4130-8e32-eeae1f3b76d2)
+
 **Input**:
 ```
 isConnected = [
