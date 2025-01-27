@@ -1,3 +1,42 @@
+// OPTIMISED SOLUTION USING DFS AND OMITTING VISITED ARRAY
+class Solution {
+    public static boolean isBipartite(int[][] graph) {
+        int V = graph.length;
+
+        int[] color = new int[V];
+        Arrays.fill(color, -1);
+
+        for (int i = 0; i < V; i++) {
+            if (color[i] == -1) {
+                if (!dfs(i, 0, color, graph)) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+
+    private static boolean dfs(int i, int currentColor, int[] color, int[][] graph) {
+        color[i] = currentColor;
+
+        for (int neighbour : graph[i]) {
+            if (color[neighbour] == -1) {
+                if (!dfs(neighbour, 1 - currentColor, color, graph)) {
+                    return false;
+                }
+            } else if (color[neighbour] == currentColor) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+
+// -------------------------------------------------------------------------------------------------------------------
+
+//INITIAL SOLUTION USING BFS
 class Solution {
     public boolean isBipartite(int[][] graph) {
         int V = graph.length;
@@ -17,7 +56,7 @@ class Solution {
         return true;
     }
 
-    public boolean bfs(int start, boolean[] visited, int[] color, int[][] graph) {
+    private boolean bfs(int start, boolean[] visited, int[] color, int[][] graph) {
         Queue<Integer> queue = new LinkedList<>();
         queue.add(start);
         visited[start] = true;
